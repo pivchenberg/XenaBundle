@@ -3,6 +3,7 @@
     "description": "Adds tree-like admin functionality",
     "type": "symfony-bundle",
     "license": "MIT",
+    "homepage": "https://github.com/pivchenberg/XenaBundle",
     "authors": [
         {
             "name": "Nikita Pivchenkov",
