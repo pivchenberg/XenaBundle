@@ -1,0 +1,4 @@
+services:
+#    xena.example:
+#        class: Pivchenberg\XenaBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
