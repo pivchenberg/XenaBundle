@@ -39,7 +39,7 @@ class XenaExtension extends Extension implements PrependExtensionInterface
             $extensions = $container->getExtensions();
             if (isset($extensions['doctrine']) && isset($extensions['stof_doctrine_extensions'])) {
                 $config = Yaml::parse(
-                    file_get_contents(__DIR__.'/../Resources/config/stof_doctrine_extensions_config_prepend.yml')
+                    file_get_contents(__DIR__ . '/../Resources/config/config_prepend.yml')
                 );
 
                 $container->prependExtensionConfig('doctrine', $config['doctrine']);
