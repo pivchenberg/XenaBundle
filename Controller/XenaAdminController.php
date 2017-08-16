@@ -19,7 +19,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
  */
 class XenaAdminController extends Controller
 {
-    /**
+    /** 
      * @Route("/", name="xena_admin_index")
      */
     public function indexAction()
