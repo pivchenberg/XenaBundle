@@ -29,7 +29,7 @@ class XenaAdminController extends Controller
         $baseRepo = $em->getRepository('XenaBundle:BaseNode');
 
         $rootNodes = $baseRepo->findRootNodes();
-        dump($rootNodes);
+
 
         return $this->render('@Xena/Admin/index.html.twig');
     }
